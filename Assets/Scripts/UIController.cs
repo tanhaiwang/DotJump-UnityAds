@@ -93,11 +93,11 @@ public class UIController : MonoBehaviour {
 					restart();
 					break;
 
-                case "DoubleScore":
-                        ShowRewardedAd();                      
+                case "DoubleYes":
+                        ShowRewardedAd();                       
                         break;
 					
-				case "Replay":
+				case "DoubleNo":
 					isRestartPressed = true;
 					restart();
 					playerController.currentState = playerController.playerStates.idle;
